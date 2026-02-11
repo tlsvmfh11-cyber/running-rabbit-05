@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="ko" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="0KSZ4Qbx7QFG_FNdcaDh1JGsABx8OYJCVnADXkJdyAo" />
+    <meta name="naver-site-verification" content="eb65ae89867b3ea068ebe300e26c926b01d3065d" />
+    <title>강남 퍼펙트 | 가격·주대·이용 방법 정리</title>
+    <meta property="og:title" content="강남 퍼펙트 | 가격·주대·이용 방법 정리">
+    <meta property="og:description" content="강남 퍼펙트 이용 전 가장 많이 묻는 가격, 주대, 시스템을 실제 기준으로 정리했습니다. 처음 방문하시는 분들도 이해하기 쉽게 안내드립니다.">
+    <meta property="og:image" content="/img/1.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @layer base {
+        body {
+          font-family: "Noto Sans KR", sans-serif;
+        }
+        h2, h3 {
+          @apply mb-5 text-4xl font-bold;
+        }
+        p, ul {
+          @apply text-lg mb-3;
+        }
+        li p, p:last-child {
+          @apply mb-0;
+        }
+        li {
+          @apply mb-3;
+        }
+        main {
+          @apply overflow-hidden;
+        }
+      }
+      @layer components {
+        body {
+          @apply text-stone-300 bg-black;
+        }
+        header .container>a:first-child {
+          @apply inline-block bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 to-amber-400;
+        }
+        section {
+          @apply scroll-mt-14;
+        }
+        .container {
+          @apply mx-auto;
+        }
+        header {
+          @apply fixed z-1 top-0 w-full border-b-1 border-amber-300 bg-black/80 backdrop-blur sm:block;
+        }
+        header a {
+          @apply inline-block items-center p-2 xl:p-3 text-base;
+        }
+        header .container>a:first-child {
+          @apply me-auto text-4xl font-extrabold pt-1 pb-3;
+        }
+        c nav a {
+          @apply border-b-2 border-transparent;
+        }
+        nav a.active {
+          @apply text-yellow-300 border-yellow-300;
+        }
+        footer {
+          @apply fixed bottom-0 w-full py-10 text-center
+        }
+        footer a[href^="tel"] {
+          @apply p-3 md:ps-7 text-3xl rounded-full text-black bg-gradient-to-r from-yellow-400 to-amber-700 shadow-lg shadow-amber-950;
+        }
+        footer a[href^="tel"] span:last-child {
+          @apply px-5 py-2 inline-block rounded-full text-yellow-500 bg-black;
+        }
+        .mx-auto.aspect-square.rounded-xl {
+          @apply shadow-lg shadow-amber-900;
+        }
+        .info>* {
+          @apply bg-amber-200;
+        }
+        .background-image {
+          @apply absolute -z-1 inset-0 w-full max-h-full object-cover brightness-20 blur-lg;
+        }
+      }
+      @layer utilities {
+        .aos-init {
+          opacity: 0;
+          transition: all 1s;
+        }
+        .aos-init.aos-animate {
+          opacity: 1;
+          transform: none;
+        }
+        section.aos-init {
+          position: relative;
+        }
+        section::before {
+          content: "";
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 0;
+          height: .125rem;
+          transition: all 1s;
+          @apply bg-gradient-to-r from-yellow-500 to-amber-900;
+        }
+        section.aos-animate::before {
+          width: 200%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container flex flex-wrap justify-between items-center">
+        <a href="#">강남 퍼펙트</a>
+        <button id="menu-toggle-button"
+                class="md:hidden text-white p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-white"
+                aria-controls="navigation-menu"
+                aria-expanded="false" 
+                onclick="toggleMenu()">
+          <span id="toggle-label">menu open</span>
+          <div id="hamburger-icon" class="w-6 h-6 flex flex-col justify-around">
+            <span class="block w-full h-0.5 bg-yellow-600 transition duration-300 ease-in-out transform" id="bar-top"></span>
+            <span class="block w-full h-0.5 bg-yellow-600 transition duration-300 ease-in-out" id="bar-middle"></span>
+            <span class="block w-full h-0.5 bg-yellow-600 transition duration-300 ease-in-out transform" id="bar-bottom"></span>
+          </div>
+        </button>
+        <nav id="navigation-menu" 
+          class="hidden md:flex flex-col md:flex-row pb-4 md:pb-0 w-full md:w-auto z-10"
+          aria-labelledby="toggle-label">
+          <a href="#sec1">소개</a>
+          <a href="#sec2">시스템</a>
+          <a href="#sec3">가격</a>
+          <a href="#sec4">서비스</a>
+          <a href="#sec5">질문</a>
+          <a href="#sec6">예약</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section data-aos="fade">
+        <img class="background-image" src="/img/0.jpg">
+        <div class="container">
+          <div class="flex flex-col items-center py-24 gap-12 lg:gap-20 lg:flex-row mt-14">
+            <div class="w-full lg:w-1/2">
+              <img class="mx-auto aspect-square rounded-xl" src="/img/0.jpg" alt="강남 퍼펙트 인사말">
+            </div>
+            <div class="w-full lg:w-1/2">
+              <p>강남 퍼펙트를 처음 알아보는 분들이 가장 궁금해하는 건 결국 가격은 어떻게 되는지, 주대는 어느 정도인지, 그리고 처음 가도 내상당하지 않을지, 사이즈는 어떨지입니다.</p>
+              <p>강남 퍼펙트는 과장된 홍보나 애매한 표현 없이 실제로 문의가 가장 많은 내용 위주로 이용 방법과 기준을 정리했습니다.</p>
+              <p>처음 방문하시는 분들도 이 페이지 하나만 보시면 전체 흐름을 이해하실 수 있도록 최대한 현실적인 기준으로 안내드리겠습니다.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-aos="fade" id="sec1">
+        <img class="background-image" src="/img/1.jpg">
+        <div class="container">
+          <div class="flex flex-col items-center py-24 gap-12 lg:gap-20 lg:flex-row-reverse">
+            <div class="w-full lg:w-1/2">
+              <img class="mx-auto aspect-square rounded-xl" src="/img/1.jpg" alt="강남 퍼펙트 소개">
+            </div>
+            <div class="w-full lg:w-1/2">
+              <h2>강남 퍼펙트 소개</h2>
+              <p>강남 퍼펙트는 강남권에서 술자리, 모임, 비즈니스 자리를 목적으로 가성비 기준으로 적당한 선의 가격에 텐프로·쩜오급 퀄리티를 찾는 분들이 꾸준히 방문하는 대형 룸 업장입니다.</p>
+              <p>약 70여 개의 룸을 갖춘 대규모 시설로 운영되고 있으며, 룸마다 인테리어 컨디션과 분위기가 잘 정리되어 있어 조용한 자리부터 여러 명이 함께하는 자리까지 상황에 맞게 선택이 가능합니다.</p>
+              <p>또한 하루 평균 150명~200명 수준의 출근 인원이 유지되는 초대형 업장이다 보니 스타일, 사이즈, 마인드 등 각 손님 취향에 맞춘 선택 폭이 넓은 편입니다.</p>
+              <p>담당 실장이 처음 상담부터 이용 종료까지 취향을 정리해드리고 추천을 진행하기 때문에 처음 방문하시는 분들도 내상이나 선택에 대한 걱정을 크게 하지 않으셔도 됩니다.</p>
+              <p>그래서 강남 퍼펙트는 첫 방문 고객 비중도 꾸준히 유지되고 있는 곳입니다.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-aos="fade" id="sec2">
+        <img class="background-image" src="/img/2.jpg">
+        <div class="container">
+          <div class="flex flex-col items-center py-24 gap-12 lg:gap-20 lg:flex-row">
+            <div class="w-full lg:w-1/2">
+              <img class="mx-auto aspect-square rounded-xl" src="/img/2.jpg" alt="강남 퍼펙트 이용 시스템 안내">
+            </div>
+            <div class="w-full lg:w-1/2">
+              <h2>강남 퍼펙트 이용 시스템 안내</h2>
+              <p>강남 퍼펙트 이용 방식은 복잡하지 않습니다. 처음 방문하시는 분들도 안내에 따라 자연스럽게 진행하실 수 있습니다.</p>
+              <p>강남 퍼펙트의 룸초이스는 담당 사장이 손님께서 원하시는 스타일, 마인드, 사이즈 등을 먼저 정리한 뒤 한 분씩 추천해드리는 방식으로 진행됩니다.</p>
+              <p>현장에서 급하게 결정을 요구하거나 즉흥적으로 선택하게 만드는 구조가 아닙니다.</p>
+              <p>처음 오신 분들도 부담 없이 설명을 듣고 본인에게 맞는 선택을 하실 수 있도록 진행됩니다.</p>
+              <ul>
+                <li>사전 예약 또는 문의</li>
+                <li>방문 후 인원에 맞는 룸 안내</li>
+                <li>주류 선택 및 이용 시작</li>
+                <li>룸초이스 진행</li>
+                <li>필요 시 연장 또는 추가 선택</li>
+                <li>룸초이스 시스템 안내</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-aos="fade" id="sec3">
+        <img class="background-image" src="/img/3.jpg">
+        <div class="container">
+          <div class="flex flex-col items-center py-24 gap-12 lg:gap-20 lg:flex-row-reverse">
+            <div class="w-full lg:w-1/2">
+              <img class="mx-auto aspect-square rounded-xl" src="/img/3.jpg" alt="강남 퍼펙트 가격">
+            </div>
+            <div class="w-full lg:w-1/2">
+              <h2>강남 퍼펙트 가격 안내</h2>
+              <p>강남 퍼펙트 가격은 이용 시간 + 주대를 기준으로 구성됩니다.</p>
+              <ul>
+                <li><span>주대 : 180,000원</span></li>
+                <li><span>룸티 : 50,000원</span></li>
+                <li><span>티시 : 130,000원</span></li>
+                <li><span>연장 티시 : 150,000원</span></li>
+              </ul>
+              <p>요일, 시간대, 인원 수에 따라 세부 금액은 일부 달라질 수 있습니다. 그래서 정확한 금액은 방문 전 문의를 통해 확인하시는 것이 가장 확실합니다. 중요한 점은 현장에서 갑작스럽게 추가 비용이 발생하는 방식이 아니라 사전에 안내된 기준으로 진행된다는 점입니다.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-aos="fade" id="sec4">
+        <img class="background-image" src="/img/4.jpg">
+        <div class="container">
+          <div class="flex flex-col items-center py-24 gap-12 lg:gap-20 lg:flex-row">
+            <div class="w-full lg:w-1/2">
+              <img class="mx-auto aspect-square rounded-xl" src="/img/4.jpg" alt="강남 퍼펙트 서비스">
+            </div>
+            <div class="w-full lg:w-1/2">
+              <h2>주류 · 서비스 · 픽업 안내</h2>
+              <p>이용 중 맥주, 물, 음료, 양주 등이 부족한 경우 담당 사장이 상황에 맞게 서비스 개념으로 킵술을 준비해 채워드리는 경우도 있습니다.</p>
+              <p>또한 강남 퍼펙트는 픽업 서비스도 지원하고 있어 처음 방문하시는 분들이나 이동이 불편하신 경우에도 편하게 요청 후 방문하실 수 있습니다.</p>
+              <br>
+              <h3>강남 퍼펙트 이런 분들께 많이 선택됩니다</h3>
+              <p>강남에서 가성비 기준으로 마인드·사이즈·수질 좋은 룸 술자리를 찾는 분</p>
+              <p>가격과 주대를 미리 알고 이용하고 싶은 분</p>
+              <p>처음 방문이라 시스템이 궁금한 분</p>
+              <p>소규모 또는 지인 모임 장소를 찾는 분</p>
+              <p>혼자서도 부담 없이 이용할 수 있는 곳을 찾는 분</p>
+              <p>특정 분위기를 강요하기보다는 편하게 이용할 수 있는 환경을 선호하시는 분들께 무난하게 선택되는 곳입니다.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-aos="fade" id="sec5">
+        <img class="background-image" src="/img/5.jpg">
+        <div class="container">
+          <div class="flex flex-col items-center py-24 gap-12 lg:gap-20 lg:flex-row-reverse">
+            <div class="w-full lg:w-1/2">
+              <img class="mx-auto aspect-square rounded-xl" src="/img/5.jpg" alt="강남 퍼펙트 질문">
+            </div>
+            <div class="w-full lg:w-1/2">
+              <h2>자주 묻는 질문 (Q&A)</h2>
+              <ul>
+                <li>
+                  <h5>Q. 강남 퍼펙트 처음 가도 괜찮은가요?</h5>
+                  <p>네. 강남 퍼펙트는 처음 방문하시는 분들의 비중도 높습니다. 이용 흐름이 단순하고, 처음부터 담당 사장이 안내를 진행하기 때문에 시스템 때문에 불편함을 느끼는 경우는 많지 않습니다.</p>
+                </li>
+                <li>
+                  <h5>Q. 강남 퍼펙트 가격은 어느 정도 생각하면 되나요?</h5>
+                  <p>강남 퍼펙트 가격은 이용 시간과 주대 구성에 따라 달라집니다. 정확한 금액은 방문 전 문의를 통해 상황에 맞게 안내받으시는 것이 가장 정확합니다.</p>
+                </li>
+                <li>
+                  <h5>Q. 주대는 이용 전에 알 수 있나요?</h5>
+                  <p>네, 가능합니다. 주류 선택 전에 주대 기준을 먼저 안내드리며 동의 후 이용이 진행됩니다. 이용 중 갑작스럽게 변경되는 방식은 아닙니다.</p>
+                </li>
+                <li>
+                  <h5>Q. 혼자 방문해도 괜찮나요?</h5>
+                  <p>네. 강남 퍼펙트는 1인 단독 방문도 충분히 가능한 곳입니다.</p>
+                  <p>혼자 오신다고 해서 분위기가 어색하거나 이용이 불편한 구조가 아니며, 담당 사장이 처음부터 끝까지 케어해드리기 때문에 부담 없이 이용하실 수 있습니다.</p>
+                </li>
+                <li>
+                  <h5>Q. 강남 퍼펙트 분위기는 어떤 편인가요?</h5>
+                  <p>약 70여 개 룸 규모의 대형 업장으로 전체적으로 정리된 인테리어와 안정적인 분위기입니다.</p>
+                  <p>영화나 드라마 촬영지로도 알려진 곳이며, 접대 자리나 중요한 자리에도 무난하게 이용할 수 있고 동시에 조용한 자리를 선호하시는 분들도 불편 없이 이용 가능합니다.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-aos="fade" id="sec6">
+        <img class="background-image" src="/img/6.jpg">
+        <div class="container">
+          <div class="flex flex-col items-center py-24 gap-12 lg:gap-20 lg:flex-row mb-20">
+            <div class="w-full lg:w-1/2">
+              <img class="mx-auto aspect-square rounded-xl" src="/img/6.jpg" alt="강남 퍼펙트 예약 안내">
+            </div>
+            <div class="w-full lg:w-1/2">
+              <h2>예약 및 문의 안내</h2>
+              <p>
+                강남 퍼펙트는 방문 전 예약 또는 문의를 권장드립니다. [이용 인원] [방문 시간대] [궁금한 부분 (가격·주대·분위기 등) ]
+                위 내용을 미리 말씀 주시면 상황에 맞게 정확히 안내해드립니다.
+                불필요한 설명이나 과장 없이 필요한 정보만 안내드리는 것을 기준으로 운영하고 있습니다.
+              </p>
+              <div class="flex flex-col 2xl:flex-row justify-center mb-30 py-3 info max-w-full mx-auto">
+                <span class="flex-1 block m-3 px-8 py-2 rounded-xl text-black text-center text-lg font-bold">
+                전화번호<br class="hidden md:block">
+                010-2303-3778
+                </span>
+                <span class="flex-1 block m-3 px-8 py-2 rounded-xl text-black text-center text-lg font-bold">
+                텔레그램<br class="hidden md:block">
+                @hscompanyshs
+                </span>
+                <span class="flex-1 block m-3 px-8 py-2 rounded-xl text-black text-center text-lg font-bold">
+                카카오톡<br class="hidden md:block">
+                tlsgustlra
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a href="tel:+82-10-2303-3778"><span class="hidden md:inline-block">예약</span> <span><strong>신대표: 010-2303-3778</strong></span></a>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+
+      document.addEventListener('dragstart', event => event.preventDefault());
+      document.addEventListener('selectstart', event => event.preventDefault());
+      document.addEventListener('contextmenu', event => event.preventDefault());
+
+      const NAV_HEIGHT = 56;
+      const sections = document.querySelectorAll('section');
+      const navLinks = document.querySelectorAll('nav a');
+      function activateScrollspy() {
+        const currentScroll = window.scrollY + NAV_HEIGHT + 1;
+        let activeId = null;
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.offsetHeight;
+          if (currentScroll >= sectionTop && currentScroll < sectionTop + sectionHeight) {
+            activeId = section.id;
+          }
+        });
+        navLinks.forEach(link => link.classList.remove('active'));
+        if (activeId) {
+          const currentLink = document.querySelector(`a[href="#${activeId}"]`);
+          if (currentLink) {
+            currentLink.classList.add('active');
+          }
+        }
+      }
+      window.addEventListener('scroll', activateScrollspy);
+      document.addEventListener('DOMContentLoaded', activateScrollspy);
+
+      let isMenuOpen = false;
+      function toggleMenu() {
+        isMenuOpen = !isMenuOpen;
+        const menu = document.getElementById('navigation-menu');
+        const button = document.getElementById('menu-toggle-button');
+        const label = document.getElementById('toggle-label');
+        const barTop = document.getElementById('bar-top');
+        const barMiddle = document.getElementById('bar-middle');
+        const barBottom = document.getElementById('bar-bottom');
+        menu.classList.toggle('hidden', !isMenuOpen);
+        button.setAttribute('aria-expanded', isMenuOpen);
+        label.textContent = isMenuOpen ? 'close' : 'open';
+        if (isMenuOpen) {
+          barTop.classList.add('rotate-45', 'translate-y-2');
+          barMiddle.classList.add('opacity-0');
+          barBottom.classList.add('-rotate-45', '-translate-y-2');
+        } else {
+          barTop.classList.remove('rotate-45', 'translate-y-2');
+          barMiddle.classList.remove('opacity-0');
+          barBottom.classList.remove('-rotate-45', '-translate-y-2');
+        }
+      }
+    </script>
+  </body>
+</html>
