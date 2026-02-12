@@ -10,7 +10,7 @@ Disallow: /api/
 Disallow: /temp/
 
 # Sitemap location
-Sitemap: https://tlsvmfh11-cyber.github.io/running-rabbit-05/sitemap.xml
+Sitemap: https://www.perfectpany.com/sitemap.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1
