@@ -1,26 +1,21 @@
-# robots.txt for perfectgangnam.com
-
 User-agent: *
 Allow: /
-Allow: /img/
 
 Disallow: /admin/
 Disallow: /private/
 Disallow: /api/
 Disallow: /temp/
 
-# Sitemap location
 Sitemap: https://www.perfectpany.com/sitemap.xml
 
-# Crawl-delay for respectful crawling
-Crawl-delay: 1
-
-# Google Bot
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 0
 
-# Naver Bot
 User-agent: Yeti
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
 Allow: /
 Crawl-delay: 0
