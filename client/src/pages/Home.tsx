@@ -483,7 +483,7 @@ export default function Home() {
         <SectionWrapper id="faq" imgSrc="/5.webp" imgAlt="강남 퍼펙트 FAQ - 처음 방문 가격 주대 혼자방문 분위기 질문 답변" reverse>
           <h2 id="faq-heading" className="text-3xl sm:text-4xl font-bold mb-5 text-stone-100">자주 묻는 질문 (Q&A)</h2>
 
-          <div className="space-y-6">
+          <div className="space-y-6" itemScope itemType="https://schema.org/FAQPage">
             {[
               {
                 q: "Q. 강남 퍼펙트 처음 가도 괜찮은가요?",
@@ -532,6 +532,7 @@ export default function Home() {
           </p>
 
           <h3 className="text-2xl font-bold mt-6 mb-4 text-stone-200">강남 퍼펙트 위치 확인</h3>
+          <address className="not-italic">
           <p className="text-lg text-stone-300 mb-4 leading-relaxed">
             <strong className="text-amber-200">강남 퍼펙트 위치</strong>는 강남역 10번 출구에서 도보 5분 거리입니다.{" "}
             <a href="https://map.naver.com/p/search/%EA%B0%95%EB%82%A8%EC%97%AD" target="_blank" rel="noopener nofollow" className="text-amber-400 underline underline-offset-4">네이버 지도에서 강남역 확인하기</a>{" "}
@@ -539,6 +540,7 @@ export default function Home() {
             <a href="https://www.google.com/maps/search/%EA%B0%95%EB%82%A8%EC%97%AD" target="_blank" rel="noopener nofollow" className="text-amber-400 underline underline-offset-4">구글 지도에서 강남역 확인하기</a>를
             통해 정확한 위치를 확인하실 수 있습니다. 주차는 건물 지하 주차장 이용 가능하며, 2시간 무료 주차권을 제공합니다.
           </p>
+          </address>
 
           <h3 className="text-2xl font-bold mt-6 mb-4 text-stone-200">예약 시 알려주실 내용</h3>
           <ul className="bg-stone-900/60 rounded-md p-4 mb-4 space-y-2 text-lg text-stone-300">
