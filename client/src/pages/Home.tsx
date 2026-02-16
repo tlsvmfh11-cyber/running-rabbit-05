@@ -31,7 +31,7 @@ function SectionWrapper({ children, id, imgSrc, imgAlt, reverse = false }: {
     <section
       ref={ref}
       id={id}
-      className="relative section-line scroll-mt-16 opacity-0 transition-all duration-1000 [&.visible]:opacity-100"
+      className="relative overflow-hidden section-line scroll-mt-16 opacity-0 transition-all duration-1000 [&.visible]:opacity-100"
       aria-labelledby={id ? `${id}-heading` : undefined}
     >
       <img
@@ -132,7 +132,7 @@ export default function Home() {
       </header>
 
       <main className="pt-0">
-        <section className="relative min-h-screen flex items-center" aria-label="강남 퍼펙트 메인 소개">
+        <section className="relative overflow-hidden min-h-screen flex items-center" aria-label="강남 퍼펙트 메인 소개">
           <img
             className="absolute -z-10 inset-0 w-full h-full object-cover brightness-[0.15] blur-lg"
             src="/0.webp"
