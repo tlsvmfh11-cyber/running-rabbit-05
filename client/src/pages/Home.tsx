@@ -209,20 +209,17 @@ export default function Home() {
           </p>
           <p className="text-lg text-stone-300 mb-4 leading-relaxed">
             <strong className="text-amber-200">강남 퍼펙트</strong> 인테리어는 고급스러운 블랙 톤과 골드 포인트로 구성되어 있으며,
-            영화나 드라마 촬영지로도 여러 차례 사용된 곳입니다. 실제로 2023년과 2024년에 유명 드라마 2편의 촬영이 이루어졌으며,
-            방송 이후 방문 문의가 크게 증가했습니다.
+            영화나 드라마 촬영지로도 사용된 적이 있는 곳입니다.
           </p>
 
           <h3 className="text-xl font-bold mt-6 mb-3 text-stone-200">강남 퍼펙트 출근 인원과 선택 폭</h3>
           <p className="text-lg text-stone-300 mb-4 leading-relaxed">
-            또한 하루 평균 <strong className="text-amber-200">150명~200명 수준</strong>의 출근 인원이 유지되는 초대형 업장이다 보니
-            스타일, 사이즈, 마인드 등 각 손님 취향에 맞춘 선택 폭이 넓은 편입니다. 평일에는 평균 150명, 주말에는 평균 200명 이상이 출근하며,
-            특히 금요일과 토요일에는 220명까지 출근하는 경우도 있습니다.
+            또한 하루 <strong className="text-amber-200">많은 출근 인원</strong>이 유지되는 초대형 업장이다 보니
+            스타일, 사이즈, 마인드 등 각 손님 취향에 맞춘 선택 폭이 넓은 편입니다. 주말과 금요일에는 특히 출근 인원이 많아 선택 폭이 더 넓어집니다.
           </p>
           <p className="text-lg text-stone-300 mb-4 leading-relaxed">
-            현장 매니저로서 8년 넘게 일하면서 확인한 바로는, <strong className="text-amber-200">강남 퍼펙트</strong> 재방문율이 약{" "}
-            <strong className="text-amber-200">73%</strong> 수준입니다. 이는 <strong className="text-amber-200">강남 퍼펙트 시스템</strong>의
-            투명성과 서비스 품질이 높다는 것을 의미합니다. 실제로 한 달에 2회 이상 방문하시는 단골 고객 비율이 약 35%에 달합니다.
+            현장에서 오래 일하면서 느낀 건, <strong className="text-amber-200">강남 퍼펙트</strong>는 재방문하시는 분들이 상당히 많다는 점입니다.
+            <strong className="text-amber-200">강남 퍼펙트 시스템</strong>이 투명하고 서비스 품질이 일정하게 유지되기 때문이라고 생각합니다.
           </p>
 
           <h3 className="text-xl font-bold mt-6 mb-3 text-stone-200">강남 퍼펙트 매니저 시스템</h3>
@@ -236,11 +233,10 @@ export default function Home() {
             손님의 취향과 예산에 맞춰 최적의 추천을 제공합니다. 매니저 1명당 평균 3~4개 룸을 담당하며, 빠른 응대와 서비스를 보장합니다.
           </p>
 
-          <h3 className="text-xl font-bold mt-6 mb-3 text-stone-200">강남 퍼펙트 신규 고객 비율</h3>
+          <h3 className="text-xl font-bold mt-6 mb-3 text-stone-200">강남 퍼펙트 첫 방문 안내</h3>
           <p className="text-lg text-stone-300 mb-4 leading-relaxed">
-            그래서 <strong className="text-amber-200">강남 퍼펙트</strong>는 첫 방문 고객 비중도 꾸준히 유지되고 있는 곳입니다.
-            지난 1년간 약 <strong className="text-amber-200">5,400팀</strong> 이상이 방문했으며, 이 중 신규 고객은 약 27% 수준입니다.
-            월 평균 450팀이 방문하며, 주말에는 하루 평균 20~25팀이 이용합니다.
+            <strong className="text-amber-200">강남 퍼펙트</strong>는 첫 방문 고객 비중도 꾸준히 유지되고 있으며,
+            처음 오시는 분들도 편하게 이용하실 수 있도록 안내 시스템이 잘 갖춰져 있습니다.
           </p>
           <p className="text-lg text-stone-300 mb-4 leading-relaxed">
             <strong className="text-amber-200">강남 퍼펙트 예약</strong>은 전화, 카카오톡, 텔레그램으로 가능하며, 당일 예약도 가능합니다.
@@ -255,7 +251,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-2 bg-amber-950/30 rounded-md px-4 py-2">
               <Star className="w-5 h-5 text-amber-400" />
-              <span className="text-sm text-stone-300"><strong className="text-amber-200">73%</strong> 재방문</span>
+              <span className="text-sm text-stone-300"><strong className="text-amber-200">높은</strong> 재방문</span>
             </div>
             <div className="flex items-center gap-2 bg-amber-950/30 rounded-md px-4 py-2">
               <Clock className="w-5 h-5 text-amber-400" />
@@ -288,7 +284,7 @@ export default function Home() {
           <p className="text-lg text-stone-300 mb-4 leading-relaxed">
             현장에서 급하게 결정을 요구하거나 즉흥적으로 선택하게 만드는 구조가 아닙니다. 만약 마음에 들지 않으시면 재선택도 가능합니다.
             재선택은 최대 2회까지 가능하며, 추가 비용은 발생하지 않습니다.
-            8년간 일하면서 경험한 바로는, 재선택을 요청하시는 분은 전체의 약 15% 수준이며, 재선택 후 만족도는 95% 이상입니다.
+            재선택을 요청하시는 경우는 많지 않으며, 재선택 후에는 대부분 만족하십니다.
           </p>
 
           <h3 className="text-xl font-bold mt-6 mb-3 text-stone-200">강남 퍼펙트 TC 시스템</h3>
@@ -487,7 +483,7 @@ export default function Home() {
             {[
               {
                 q: "Q. 강남 퍼펙트 처음 가도 괜찮은가요?",
-                a: <>네. <strong className="text-amber-200">강남 퍼펙트</strong>는 처음 방문하시는 분들의 비중도 높습니다. <strong className="text-amber-200">강남 퍼펙트 시스템</strong>은 이용 흐름이 단순하고, 처음부터 담당 사장이 안내를 진행하기 때문에 시스템 때문에 불편함을 느끼는 경우는 많지 않습니다. 실제로 신규 고객의 97%가 &quot;처음이어도 편했다&quot;고 응답했습니다.</>
+                a: <>네. <strong className="text-amber-200">강남 퍼펙트</strong>는 처음 방문하시는 분들의 비중도 높습니다. <strong className="text-amber-200">강남 퍼펙트 시스템</strong>은 이용 흐름이 단순하고, 처음부터 담당 사장이 안내를 진행하기 때문에 시스템 때문에 불편함을 느끼는 경우는 많지 않습니다.</>
               },
               {
                 q: "Q. 강남 퍼펙트 가격은 어느 정도 생각하면 되나요?",
@@ -499,7 +495,7 @@ export default function Home() {
               },
               {
                 q: "Q. 강남 퍼펙트 혼자 방문해도 괜찮나요?",
-                a: <>네. <strong className="text-amber-200">강남 퍼펙트</strong>는 1인 단독 방문도 충분히 가능한 곳입니다. 전체 손님 중 약 12%가 1인 방문 고객입니다. 혼자 오신다고 해서 분위기가 어색하거나 이용이 불편한 구조가 아니며, 담당 사장이 처음부터 끝까지 케어해드리기 때문에 부담 없이 이용하실 수 있습니다. 1인 전용 소형 룸도 별도로 운영하고 있습니다.</>
+                a: <>네. <strong className="text-amber-200">강남 퍼펙트</strong>는 1인 단독 방문도 충분히 가능한 곳입니다. 혼자 오신다고 해서 분위기가 어색하거나 이용이 불편한 구조가 아니며, 담당 사장이 처음부터 끝까지 케어해드리기 때문에 부담 없이 이용하실 수 있습니다. 1인 전용 소형 룸도 별도로 운영하고 있습니다.</>
               },
               {
                 q: "Q. 강남 퍼펙트 분위기는 어떤 편인가요?",
