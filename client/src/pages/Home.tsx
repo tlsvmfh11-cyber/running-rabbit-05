@@ -483,7 +483,7 @@ export default function Home() {
         <SectionWrapper id="faq" imgSrc="/5.webp" imgAlt="강남 퍼펙트 FAQ - 처음 방문 가격 주대 혼자방문 분위기 질문 답변" reverse>
           <h2 id="faq-heading" className="text-3xl sm:text-4xl font-bold mb-5 text-stone-100">자주 묻는 질문 (Q&A)</h2>
 
-          <div className="space-y-6" itemScope itemType="https://schema.org/FAQPage">
+          <div className="space-y-6">
             {[
               {
                 q: "Q. 강남 퍼펙트 처음 가도 괜찮은가요?",
